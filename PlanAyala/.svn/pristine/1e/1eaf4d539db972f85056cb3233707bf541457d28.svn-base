@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="login" template="/WEB-INF/login/login-template.jsp">
+        <put-attribute name="body" value="/WEB-INF/pages/login.jsp" />
+    </definition>
+    
+    <definition name="welcome" template="/WEB-INF/pages/welcome.jsp" />
+    
+    <definition name="formulario" template="/WEB-INF/pages/formulario.jsp" />
+    
+    <definition name="listaPersona" template="/WEB-INF/pages/listaPersona.jsp" />
+    
+    <definition name="listaAnimal" template="/WEB-INF/pages/listaAnimal.jsp" />
+    
+    <definition name="admin" template="/WEB-INF/pages/admin.jsp" />
+    
+    <definition name="hello" template="/WEB-INF/pages/hellow.jsp" />
+    
+    <definition name="403" template="/WEB-INF/pages/403.jsp" />
+    
+<!--     <definition name="logout" template="/WEB-INF/templates/logout-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/logout.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="editors/*" template="/WEB-INF/templates/wrapper-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/editors/{1}.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="catalogos/*" template="/WEB-INF/templates/wrapper-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/catalogos/{1}.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="canales/*" template="/WEB-INF/templates/wrapper-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/canales/{1}.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="root/*" template="/WEB-INF/templates/wrapper-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/root/{1}.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="notemplate/*" template="/WEB-INF/templates/wrapper-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/{1}.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="defaultTemplate" template="/WEB-INF/templates/design-template.jsp"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/designer.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="designer/*" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/{1}.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="adeIndex" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/adeIndex.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="campaniasVinculadas" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/campaniasVinculadas.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="vincularIndex" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/vincularIndex.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="editorCatalogo" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/editorCatalogo.jsp" /> -->
+<!--     </definition> -->
+<!--     	<definition name="adminCanal" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/adminCanales.jsp" /> -->
+<!--     </definition> -->
+<!--      <definition name="rootAdmin" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/adminroot.jsp" /> -->
+<!--     </definition> -->
+<!--     <definition name="existingDesigns" extends="defaultTemplate"> -->
+<!--         <put-attribute name="body" value="/WEB-INF/pages/existingDesigns.jsp" /> -->
+<!--     </definition> -->
+</tiles-definitions>
